@@ -1,0 +1,1 @@
+cmd_/home/yys/myFile/tast_struct/Module.symvers := sed 's/\.ko$$/\.o/' /home/yys/myFile/tast_struct/modules.order | scripts/mod/modpost -m -a  -o /home/yys/myFile/tast_struct/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,1 @@
+cmd_/home/yys/myFile/cmp/cmp.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/yys/myFile/cmp/cmp.ko /home/yys/myFile/cmp/cmp.o /home/yys/myFile/cmp/cmp.mod.o;  true

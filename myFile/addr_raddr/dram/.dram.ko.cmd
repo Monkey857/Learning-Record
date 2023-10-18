@@ -1,0 +1,1 @@
+cmd_/home/yys/myFile/addr_raddr/dram/dram.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/yys/myFile/addr_raddr/dram/dram.ko /home/yys/myFile/addr_raddr/dram/dram.o /home/yys/myFile/addr_raddr/dram/dram.mod.o;  true

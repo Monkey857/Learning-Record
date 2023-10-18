@@ -1,0 +1,1 @@
+cmd_/home/yys/myFile/connect/file.o := ld  -m elf_x86_64 -z noexecstack     -r -o /home/yys/myFile/connect/file.o /home/yys/myFile/connect/File_1.o /home/yys/myFile/connect/fun2.o /home/yys/myFile/connect/fun3.o

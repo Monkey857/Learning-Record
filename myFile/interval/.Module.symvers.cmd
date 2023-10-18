@@ -1,0 +1,1 @@
+cmd_/home/yys/myFile/interval/Module.symvers := sed 's/\.ko$$/\.o/' /home/yys/myFile/interval/modules.order | scripts/mod/modpost -m -a  -o /home/yys/myFile/interval/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,2 @@
+/home/yys/myFile/tast_struct1/task1.o
+

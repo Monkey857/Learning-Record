@@ -1,0 +1,1 @@
+cmd_/home/yys/myFile/interval/interval.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/yys/myFile/interval/interval.ko /home/yys/myFile/interval/interval.o /home/yys/myFile/interval/interval.mod.o;  true

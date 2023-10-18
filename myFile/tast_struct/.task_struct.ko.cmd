@@ -1,0 +1,1 @@
+cmd_/home/yys/myFile/tast_struct/task_struct.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/yys/myFile/tast_struct/task_struct.ko /home/yys/myFile/tast_struct/task_struct.o /home/yys/myFile/tast_struct/task_struct.mod.o;  true

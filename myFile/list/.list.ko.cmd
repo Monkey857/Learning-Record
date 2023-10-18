@@ -1,0 +1,1 @@
+cmd_/home/yys/myFile/list/list.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/yys/myFile/list/list.ko /home/yys/myFile/list/list.o /home/yys/myFile/list/list.mod.o;  true
