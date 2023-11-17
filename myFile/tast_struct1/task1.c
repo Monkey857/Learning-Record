@@ -5,7 +5,7 @@
 MODULE_LICENSE("GPL");
 
 static int target_pid = 0; // 指定的进程号
-
+#define A 1
 //传入参数定义
 module_param(target_pid, int, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
 MODULE_PARM_DESC(target_pid, "指定的进程号");
